@@ -109,7 +109,7 @@ input.gsc-search-button-v2{
 		    <br/><br/><br/><br/><br/><br/><br/><br/>
 		    
 		 	
-		 <div class="container text-center" style="width:50%;">
+		 <div class="container " style="width:50%;">
 		 <center>
 		 <div style="background:url(http://www.google.es/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png) no-repeat;background-size:272px 92px;height:92px;width:272px" title="Google" id="hplogo" onload="window.lol&amp;&amp;lol()" align="left"><div style="position:relative;color:#4285f4;font:16px/16px roboto-regular, arial, sans-serif;left:215px;top:76px" nowrap="">España</div></div><br/><br/>
 		   </center>
@@ -127,25 +127,37 @@ input.gsc-search-button-v2{
 		  </div>
 		</form>
 		
-		<script type="text/javascript" src="http://www.google.es/coop/cse/brand?form=cse-search-box&amp;lang=es"></script>
+		
+
+
+
+
+
+
+
 		 <br/><br/><br/><br/><br/><br/><br/><p type="text-center"><p class="text-muted">2015. Instituto Rosalía de Castro. Con la tecnología de Google&trade;</p></p>
 		</div> 
+
+		<div class="container " style="width:70%;">
+			<script type="text/javascript" src="http://www.google.es/coop/cse/brand?form=cse-search-box&amp;lang=es"></script>
+
+			<script>
+			  (function() {
+			    var cx = 'partner-pub-6064731160144641:4377942417';
+			    var gcse = document.createElement('script');
+			    gcse.type = 'text/javascript';
+			    gcse.async = true;
+			    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+			        '//cse.google.com/cse.js?cx=' + cx;
+			    var s = document.getElementsByTagName('script')[0];
+			    s.parentNode.insertBefore(gcse, s);
+			  })();
+			</script>
 		
+			<gcse:searchbox enableHistory="true" autoCompleteMaxCompletions="5" autoCompleteMatchType='any'>
+			<gcse:searchresults refinementStyle="link">
+		</div> 
 		
-		<script>
-		  (function() {
-		    var cx = 'partner-pub-6064731160144641:4377942417';
-		    var gcse = document.createElement('script');
-		    gcse.type = 'text/javascript';
-		    gcse.async = true;
-		    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-		        '//cse.google.com/cse.js?cx=' + cx;
-		    var s = document.getElementsByTagName('script')[0];
-		    s.parentNode.insertBefore(gcse, s);
-		  })();
-		</script>
-		
-		<gcse:search enableAutoComplete="true"></gcse:search>
 
 		<style type="text/css">
 		   body { background: #F2F2F2 !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
