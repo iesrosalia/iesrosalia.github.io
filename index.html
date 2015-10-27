@@ -49,8 +49,29 @@ input.gsc-search-button-v2{
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
+
+
 <div id="wrapper">
-	
+		<div class="page-header">
+
+		<div class="row">
+	      <div class="container text-center " >
+	      	<script>
+		      	$('#cabecera').hover(
+       				
+     				function(){ $(this).removeClass('text-muted') }
+				)
+			</script>
+	        <div id="cabecera" class="col-xs-2 col-md-2"><p class="text-muted"><i class="fa fa-home fa-5x"></i></br>Inicio</p></div>
+	        <div class="col-xs-2 col-md-2"><p class="text-muted"><i class="fa fa-facebook fa-5x"></i></br>Facebook</p></div>
+	        <div class="col-xs-2 col-md-2"><p class="text-muted"><i class="fa fa-twitter fa-4x"></i></br>Twitter</p></div>
+	        <div class="col-xs-2 col-md-2"><p class="text-muted"><i class="fa fa-instagram fa-4x"></i></br>Instagram</p></div>
+	        <div class="col-xs-2 col-md-2"><p class="text-muted"><i class="fa fa-youtube fa-4x"></i></br>YouTube</p></div>
+	        <div class="col-xs-2 col-md-2"><p class="text-muted"><i class="fa fa-google-plus fa-4x"></i></br>Google +</p></div>
+
+	      </div>
+	    </div>
+		</div>
 		<div class="container">
 		   <nav class="navbar navbar-default navbar-fixed-bottom">
 		  <div class="container-fluid">
@@ -106,8 +127,8 @@ input.gsc-search-button-v2{
 		    </div>
 	
 		   
-		    <br/><br/><br/><br/><br/><br/><br/><br/>
-		    
+		    <br/><br/><br/><br/><br/><br/>
+		 <!--    
 		 	
 		 <div class="container " style="width:50%;">
 		 <center>
@@ -127,20 +148,22 @@ input.gsc-search-button-v2{
 		  </div>
 		</form>
 		
-		
+		<script type="text/javascript" src="http://www.google.es/coop/cse/brand?form=cse-search-box&amp;lang=es"></script>
+		-->
 
 
 
 
 
 
-
-		 <br/><br/><br/><br/><br/><br/><br/><p type="text-center"><p class="text-muted">2015. Instituto Rosalía de Castro. Con la tecnología de Google&trade;</p></p>
+		 
 		</div> 
 
-		<div class="container " style="width:70%;">
-			<script type="text/javascript" src="http://www.google.es/coop/cse/brand?form=cse-search-box&amp;lang=es"></script>
-
+		<div class="container " style="width:50%;">
+			
+			 <center>
+		 <div style="background:url(http://www.google.es/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png) no-repeat;background-size:272px 92px;height:92px;width:272px" title="Google" id="hplogo" onload="window.lol&amp;&amp;lol()" align="left"><div style="position:relative;color:#4285f4;font:16px/16px roboto-regular, arial, sans-serif;left:215px;top:76px" nowrap="">España</div></div><br/><br/>
+		   </center>
 			<script>
 			  (function() {
 			    var cx = 'partner-pub-6064731160144641:4377942417';
@@ -154,13 +177,19 @@ input.gsc-search-button-v2{
 			  })();
 			</script>
 		
-			<gcse:searchbox enableHistory="true" autoCompleteMaxCompletions="5" autoCompleteMatchType='any'>
-			<gcse:searchresults refinementStyle="link">
+			<gcse:searchbox enableHistory="true" autoCompleteMaxCompletions="5" autoCompleteMatchType='any'></gcse:searchbox>
+			<gcse:searchresults refinementStyle="link"></gcse:searchresults>
+			<p type="text-center"class="text-muted"><br/><br/><br/><br/><br/><br/><br/>2015. Instituto Rosalía de Castro. Con la tecnología de Google&trade;</p>
 		</div> 
 		
 
 		<style type="text/css">
 		   body { background: #F2F2F2 !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+		   .cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
+				  -webkit-box-sizing: border-box;
+				  -moz-box-sizing: content-box;
+  				  box-sizing: content-box;
+			}			
 		
 		</style>
 		</div>
@@ -169,15 +198,8 @@ input.gsc-search-button-v2{
 		      
 	
 	
-	<footer class="footer">
-	      <div class="container text-center " >
-	        <p class="text-muted"><i class="fa fa-home fa-5x"></i></br>Inicio</p>
-	        <p class="text-muted"><i class="fa fa-facebook fa-5x"></i></br>Facebook</p>
-	        <p class="text-muted"><i class="fa fa-twitter fa-5x"></i></br>Twitter</p>
-	        <p class="text-muted"><i class="fa fa-instagram fa-5x"></i></br>Instagram</p>
-	        <p class="text-muted"><i class="fa fa-youtube fa-5x"></i></br>YouTube</>p
-	      </div>
-	</footer>
+	
+	
 	
 	
     
