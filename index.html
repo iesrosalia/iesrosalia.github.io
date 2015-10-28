@@ -48,7 +48,16 @@ input.gsc-search-button-v2{
 <body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type='text/javascript'>
+$(window).load(function(){
+$(".cabecera").hover(
+  function () {
+    $(this).removeClass("text-muted");
+  }
+);
+});//]]> 
 
+</script>
 
 
 <div id="wrapper">
@@ -56,13 +65,8 @@ input.gsc-search-button-v2{
 
 		<div class="row">
 	      <div class="container text-center " >
-	      	<script>
-		      	$('#cabecera').hover(
-       				
-     				function(){ $(this).removeClass('text-muted') }
-				)
-			</script>
-	        <div id="cabecera" class="col-xs-2 col-md-2"><p class="text-muted"><i class="fa fa-home fa-5x"></i></br>Inicio</p></div>
+
+	        <div class="cabecera"><div class="col-xs-2 col-md-2"><p class="text-muted"><i class="fa fa-home fa-5x"></i></br>Inicio</p></div></div>
 	        <div class="col-xs-2 col-md-2"><p class="text-muted"><i class="fa fa-facebook fa-5x"></i></br>Facebook</p></div>
 	        <div class="col-xs-2 col-md-2"><p class="text-muted"><i class="fa fa-twitter fa-4x"></i></br>Twitter</p></div>
 	        <div class="col-xs-2 col-md-2"><p class="text-muted"><i class="fa fa-instagram fa-4x"></i></br>Instagram</p></div>
